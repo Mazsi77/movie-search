@@ -4,7 +4,7 @@ import SearchMovies from "./searchmovies"
 function App (){
     return (
         <div className="container">
-            <h1 className="title">React Movie Search</h1>
+            <h1 className="title">React Movie <br /> Search</h1>
             <SearchMovies />
         </div>
     );
