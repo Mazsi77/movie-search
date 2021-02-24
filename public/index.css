@@ -64,10 +64,16 @@ small {
 button:hover {
   background-color: #c04526;
 }
-#svg {
+.svg-l {
   width: 40%;
   position: fixed;
   z-index: -1;
+}
+.svg-r {
+  position: fixed;
+  z-index: -1;
+  width: 20%;
+  margin-left: 80%;
 }
 @media (min-width: 786px) {
   .title {
